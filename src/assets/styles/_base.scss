@@ -1,0 +1,57 @@
+body{
+    margin:10px;
+}
+
+header {
+color: var(--primary);
+position: absolute;
+width: 85%;
+height: 68px;
+left: 100px;
+top: 40px;
+
+}
+
+.logo{
+    position: absolute; 
+    left: 0%;
+    right: 83,04%; 
+    top: 0%; 
+    bottom: 0%;
+}
+
+nav {
+    margin-left: auto;
+    align-items: flex-end;
+   
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{  
+    font-style: normal;
+    font-weight: bolder;
+    margin-left: 4rem;
+    font-size: 24px;
+    line-height: 142.6%;
+    cursor: pointer; 
+     ;
+    /* or 34px */
+} 
+
+li:hover{
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+ h1, h2, h3, h4, h5 {
+    margin: 0;
+ }

@@ -48,7 +48,7 @@ li:hover{
 }
 
 body {
-  
+   margin: 0;
     font-family: var(--font-family);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -90,4 +90,25 @@ margin: 2rem auto 2rem auto;
 
  h1, h2, h3, h4, h5 {
     margin: 0;
+ }
+
+ footer {
+    margin: auto;
+    width: 100%;
+    padding: 4.2rem ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: black; 
+ } 
+
+ .footerImg{
+    width: 125px;
+    margin-left: auto;
+    margin-right: auto;
+ 
  }

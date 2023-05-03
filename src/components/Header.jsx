@@ -2,7 +2,7 @@ import logoKasa from "../assets/images/logo.png";
 function Header(){
     return (
     <header class="d-flex">
-        <img src={logoKasa}
+        <img class = "logo" src={logoKasa}
         alt="logo kasa"/> 
         <nav>
         <ul class="d-flex">

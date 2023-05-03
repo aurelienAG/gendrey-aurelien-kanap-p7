@@ -1,5 +1,13 @@
+import Herobanner from "../../components/Herobanner";
+import Cardscontainer from "../../components/Cardscontainer";
 function Homepage(){
-return 
+
+return ( 
+    <div>
+   <Herobanner />
+   <Cardscontainer />
+   </div>
+)
 }
 
 export default Homepage;

@@ -4,7 +4,7 @@ import Homepage from './pages/Homepage/Homepage';
 
 function App() {
   return (
-    <div>
+    <div class="pageBloc">
       <Header />
       <Homepage />
 

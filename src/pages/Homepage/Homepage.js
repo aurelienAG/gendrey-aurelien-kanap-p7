@@ -4,7 +4,7 @@ import Footer from "../../components/Footer";
 function Homepage(){
 
 return ( 
-    <div>
+    <div class="homePage">
    <Herobanner />
    <Cardscontainer />
    <Footer />

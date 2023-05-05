@@ -1,13 +1,19 @@
-import Header from './components/Header';
+import { Routes, Route } from "react-router-dom";
 import Homepage from './pages/Homepage/Homepage';
+import About from './pages/About/About';
+import Lodgingpage from './pages/Lodgingpage/Lodgingpage';
+import Error from './pages/Error/Error';
 
 
 function App() {
   return (
     <div class="pageBloc">
-      <Header />
-      <Homepage />
-
+    <Routes>
+      <Route path="/" element = {<Homepage />}/> 
+      <Route path="/about" element = { <About />}/> 
+      <Route path="/lodging/:id" element = {<Lodgingpage/>}/> 
+      <Route path="*" element = {<Error/>} />
+    </Routes>
       </div>
   );
 }

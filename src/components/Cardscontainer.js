@@ -2,9 +2,9 @@ import LodgingsCards from "./Lodgingscards";
 
 function Cardscontainer(){
     return ( 
-      <main className="cardsContainer d-flex"> 
+      <section className="cardsContainer"> 
       <LodgingsCards/>
-      </main>
+      </section>
     );  
   }
     export default Cardscontainer;

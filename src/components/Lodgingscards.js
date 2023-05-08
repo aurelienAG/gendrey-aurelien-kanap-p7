@@ -10,14 +10,14 @@ function LodgingsCards() {
 
   return (
  
-      <article className="cards">
-        {lodgings.map(lodging => (
-          <div key={lodging.id}>
+      
+        lodgings.map(lodging => (
+          <figure className="lodgingscards" key={lodging.id}>
             <img src={lodging.cover} alt={lodging.title} />
             <h2>{lodging.title}</h2>
-          </div>
-        ))}
-      </article>
+          </figure>
+        ))
+    
     
   );
 }

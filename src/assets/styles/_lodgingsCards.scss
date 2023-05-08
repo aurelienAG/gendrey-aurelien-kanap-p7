@@ -3,7 +3,8 @@
     height: 20rem;
     margin: 1rem 0 1rem 0;
     border-radius: 10px;
-    background-color:  #FF6060; ;
+    background: linear-gradient(180deg, (#FF6060) 0% , (#FF6060) 72% ,(#9a3f3f) 100%) ;
+  
 }
 .lodgingscards img{
     width: 100%;
@@ -15,8 +16,8 @@
 }
 
 .lodgingscards h2{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: white;
-    width: 100%; 
+    width: 90%; 
     margin: auto auto auto 0.3rem;
 }

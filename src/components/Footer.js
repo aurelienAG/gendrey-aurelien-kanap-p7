@@ -3,7 +3,7 @@ function Footer(){
 
     return (
     <footer>
-    <img src={Footerimage} alt="logo de kasa" class="footerImg"/>
+    <img src={Footerimage} alt="logo de kasa" className="footerImg"/>
     <p>© 2020 Kasa. All rights reserved</p>
     </footer>
     )

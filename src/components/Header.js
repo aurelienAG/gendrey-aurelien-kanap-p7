@@ -1,11 +1,11 @@
 import logoKasa from "../assets/images/logo.png";
 function Header(){
     return (
-    <header class="d-flex">
-        <img class = "logo" src={logoKasa}
+    <header className="d-flex">
+        <img className = "logo" src={logoKasa}
         alt="logo kasa"/> 
         <nav>
-        <ul class="d-flex">
+        <ul className="d-flex">
           <li>Accueil</li>
           <li>A propos</li>
         </ul>

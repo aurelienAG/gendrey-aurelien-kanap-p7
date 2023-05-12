@@ -1,0 +1,18 @@
+.errorPage{
+    color: var(--primary);
+}
+
+.errorText{
+    // width: 50%; 
+    // margin: auto;
+    text-align: center;
+}
+
+.errorText h1 {
+    font-size: 18rem;
+    font-weight: bolder;
+} 
+
+.errorText p{
+    margin-top: 12rem;
+}

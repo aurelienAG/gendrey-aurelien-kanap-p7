@@ -1,0 +1,56 @@
+.collapseCards{
+    width: 65%; 
+    margin: auto;
+} 
+
+.collapseCards h1{
+    position:relative; 
+    background-color: var(--primary);
+    font-size: 1.5rem; 
+    margin: 1.5rem 1rem 0 1rem;
+    padding: 0.7rem;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+} 
+.collapseCards img{
+    position: absolute; 
+    right: 10px; 
+    bottom: 18px;
+}
+
+.arrowRotate{
+    transform: rotate(180deg);
+    transition: transform 0.9s;
+  }
+  .reverse {
+    transform: rotate(0deg);
+    transition: transform 0.9s;
+  }
+
+.collapsesText{
+    width: 96.5%; 
+    height: 8rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--primary);
+    text-align: start; 
+    padding-right: -2rem;
+    margin: 0 auto 1.5rem auto; 
+    background: #F6F6F6 ; 
+    border-radius: 6px;
+} 
+
+.lodgingCollapses{
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+} 
+
+.equipmentsCollapse{
+    width: 40%;
+}
+
+.descriptionCollapse{
+    width: 40%;
+}

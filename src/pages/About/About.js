@@ -11,7 +11,9 @@ function About(){
        <Header/>     
        <Aboutbanner/>
        {aboutdatas.map(data => (
+          <div className="aboutCollapseCards">
         <Collapse title={data.title} content={data.text}/>
+        </div> 
        ))}
        <Footer/>
        </div>

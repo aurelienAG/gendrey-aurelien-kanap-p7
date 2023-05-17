@@ -10,10 +10,10 @@ function Collapse({title,content}) {
 
   return (
     <main className="collapsesBloc">
-    <div className="collapseCards">
+  
       <h1 onClick={toggleCollapse}>{title}<img src={arrow} alt="flêche" className={`arrow ${!isCollapsed ? 'arrowRotate' : 'reverse'}`} /></h1>
       {isCollapsed ? null : <p className="collapsesText">{content}</p>}
-    </div>
+   
     </main>
   );
 }

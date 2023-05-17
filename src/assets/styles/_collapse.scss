@@ -1,9 +1,9 @@
-.collapseCards{
+.aboutCollapseCards{
     width: 65%; 
     margin: auto;
 } 
 
-.collapseCards h1{
+.collapsesBloc h1{
     position:relative; 
     background-color: var(--primary);
     font-size: 1.5rem; 
@@ -13,7 +13,7 @@
     color: white;
     cursor: pointer;
 } 
-.collapseCards img{
+.collapsesBloc img{
     position: absolute; 
     right: 10px; 
     bottom: 18px;
@@ -47,10 +47,8 @@
     width: 100%;
 } 
 
-.equipmentsCollapse{
-    width: 40%;
+.lodgingCollapseCards{
+    width: 45%;
+    margin: auto;
 }
 
-.descriptionCollapse{
-    width: 40%;
-}

@@ -3,13 +3,23 @@ import Footer from "../../components/Footer";
 import { useParams } from 'react-router-dom';
 import lodgingsdatas from "../../datas/lodgingsdatas";
 import Collapse from "../../components/Collapse";
+import Carrousel from "../../components/Carrousel";
 
 function Lodgingpage(){
     const { id } = useParams();
     const lodgingdata = lodgingsdatas.find(lodging => lodging.id === id);
+    const carouselDatas = []; 
+    for (let i =0 ; i < lodgingdata.pictures.length ; i++)
+{ 
+    carouselDatas.push(lodgingdata.pictures[i])
+} 
+console.log(carouselDatas);
+          
+      
     return(
         <div className="lodgingPage">
         <Header/>
+        <Carrousel images={carouselDatas} />
         <section className="lodgingSelected"> 
         <div className="lodgingBloc">
         <article>
@@ -30,8 +40,12 @@ function Lodgingpage(){
       </div>
       </section>
       <section className="lodgingCollapses">
-      <Collapse className="descriptionCollapse" title="Description" content={lodgingdata.description}/>
-      <Collapse id="equipmentsCollapse" title="Equipements" content={lodgingdata.equipments}/>
+      <div className="lodgingCollapseCards">
+      <Collapse className="lodgingCollapse" title="Description" content={lodgingdata.description}/>
+      </div> 
+      <div className="lodgingCollapseCards">
+      <Collapse id="lodgingCollapse" title="Equipements" content={lodgingdata.equipments}/>
+      </div>
       </section>
         <Footer/>
         </div>

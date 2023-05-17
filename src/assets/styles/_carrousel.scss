@@ -1,0 +1,49 @@
+ .carrouselPicture{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom:1.5rem;
+  height:23rem;
+  width: 90%;
+  min-width: 500px; 
+  min-height: 250px;
+ }
+
+  .carrouselPicture img{
+    width: 100%; 
+    height: 100%;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+  .left-chevron ,
+  .right-chevron {
+    position: absolute;
+    top: 45%;
+    bottom: 55%;
+    cursor: pointer;
+    z-index: 1;
+    width: 3rem; 
+    height: 3rem;
+   fill:white;
+  }
+  
+  .left-chevron {
+    left: 20px;
+  }
+  
+  .right-chevron {
+    right: 20px;
+  }
+  
+.carousel-counter{
+  position: absolute; 
+  bottom: 5px; 
+  right: 50%; 
+  left: 50%;
+  color: white;
+}
+
+
+
+  

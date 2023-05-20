@@ -4,10 +4,14 @@
 } 
 
 .collapsesContent {
-    margin: 0 1rem; /* Ajoute une marge de 1rem à gauche et à droite */
-  }
+    margin: 0 1rem; 
+}
 
-.collapsesBloc h1{
+.collapsesBloc{
+  width: 65;
+}
+
+.collapsesBloc h1, .lodgingCollapses h1{
     position:relative; 
     background-color: var(--primary);
     font-size: 1.5rem; 
@@ -17,7 +21,7 @@
     color: white;
     cursor: pointer;
 } 
-.collapsesBloc img{
+.collapsesBloc img, .lodgingCollapses img{
     position: absolute; 
     right: 10px; 
     bottom: 18px;
@@ -47,13 +51,13 @@
   
 
 .lodgingCollapses{
-    display: flex; 
-    flex-direction: row;
-    width: 100%;
+ display: flex; 
+ width: 90%; 
+ margin: auto;
 } 
 
-.lodgingCollapseCards{
-    width: 45%;
-    margin: auto;
+.lodgingCollapseCard{
+  width: 50%;
 }
+
 

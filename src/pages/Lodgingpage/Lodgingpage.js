@@ -27,6 +27,7 @@ function Lodgingpage() {
 const carouselDatas = lodgingdata.pictures || [];
 
   return (
+    <div>
     <div className="lodgingPage">
       <Header />
       <Carrousel images={carouselDatas} />
@@ -43,9 +44,9 @@ const carouselDatas = lodgingdata.pictures || [];
                   <img src={lodgingdata.host.picture} alt="hôte de l'appartement" />
                   <span className='rating'>
                   {[...Array(ratingNumber)].map((_, index) => (
-        <img key={index} src={Star} alt="Image" />
+        <img key={index} src={Star} alt="note" />
       ))} {[...Array(emptyStarQty)].map((_, index) => (
-        <img key={index} src={EmptyStar} alt="Image" />
+        <img key={index} src={EmptyStar} alt="étoiles vides" />
       ))}
                   </span>
                 </div>
@@ -64,12 +65,12 @@ const carouselDatas = lodgingdata.pictures || [];
         </section>
       )}
       <section className="lodgingCollapses">
-        <div className="lodgingCollapseCards">
-          <Collapse className="lodgingCollapse" title="Description" content={lodgingdata.description}/>
-        </div>
-        <div className="lodgingCollapseCards">
-          <Collapse className="lodgingCollapse" title="Equipements" content={
-    <ul>
+        <div className="lodgingCollapseCard">
+          <Collapse title="Description" content={lodgingdata.description}/>
+        </div>  
+        <div className="lodgingCollapseCard">
+          <Collapse title="Equipements" content={
+   <ul>
       {lodgingdata.equipments.map((equipment, index) => (
         <li key={index}>{equipment}</li>
       ))}
@@ -78,8 +79,9 @@ const carouselDatas = lodgingdata.pictures || [];
       />
       </div>
       </section>
+      </div>
       <Footer />
-    </div>
+   </div>
   );
 }
 

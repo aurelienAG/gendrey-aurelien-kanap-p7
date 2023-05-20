@@ -12,7 +12,9 @@ function About(){
        <Aboutbanner/>
        {aboutdatas.map(data => (
           <div className="aboutCollapseCards">
+        <div className="collapsesBloc">    
         <Collapse title={data.title} content={data.text}/>
+        </div>
         </div> 
        ))}
        <Footer/>

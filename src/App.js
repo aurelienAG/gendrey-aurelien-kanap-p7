@@ -9,11 +9,11 @@ function App() {
   return (
     <div className="pageBloc">
     <Routes>
-      <Route path="/" element = {<Homepage />}/> 
-      <Route path="/about" element = { <About />}/> 
+      <Route path="/" element = {<Homepage/>}/> 
+      <Route path="/about" element = { <About/>}/> 
       <Route path="/lodging/:id" element = {<Lodgingpage/>}/> 
-      <Route path="/error" element={<Error />} />
-       <Route path="*" element={<Error />} />
+      <Route path="/error" element={<Error/>}/>
+       <Route path="*" element={<Error/>}/>
     </Routes>
       </div>
   );

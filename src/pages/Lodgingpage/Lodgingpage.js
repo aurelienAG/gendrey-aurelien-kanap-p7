@@ -5,19 +5,26 @@ import { useNavigate, useParams } from 'react-router-dom';
 import lodgingsdatas from "../../datas/lodgingsdatas";
 import Collapse from "../../components/Collapse";
 import Carrousel from "../../components/Carrousel";
+import Star from "../../assets/images/star.svg"; 
+import EmptyStar from "../../assets/images/emptyStar.svg";
+
 
 function Lodgingpage() {
   const { id } = useParams();
   const lodgingdata = lodgingsdatas.find(lodging => lodging.id === id);
   const navigate = useNavigate();
-
   useEffect(() => {
     if (!lodgingdata) {
       navigate('/error');
     }
   }, [lodgingdata, navigate]);
-
-  const carouselDatas = lodgingdata?.pictures || [];
+ 
+ const ratingNumber = parseInt(lodgingdata.rating); 
+ const emptyStarQty = 5 - ratingNumber; 
+ console.log(ratingNumber);
+ console.log(emptyStarQty);
+  
+const carouselDatas = lodgingdata.pictures || [];
 
   return (
     <div className="lodgingPage">
@@ -34,6 +41,13 @@ function Lodgingpage() {
                 <div className='hostDatas'>
                   <p>{lodgingdata.host.name}</p>
                   <img src={lodgingdata.host.picture} alt="hôte de l'appartement" />
+                  <span className='rating'>
+                  {[...Array(ratingNumber)].map((_, index) => (
+        <img key={index} src={Star} alt="Image" />
+      ))} {[...Array(emptyStarQty)].map((_, index) => (
+        <img key={index} src={EmptyStar} alt="Image" />
+      ))}
+                  </span>
                 </div>
               </div>
               <aside>
@@ -51,11 +65,18 @@ function Lodgingpage() {
       )}
       <section className="lodgingCollapses">
         <div className="lodgingCollapseCards">
-          <Collapse className="lodgingCollapse" title="Description" content={lodgingdata?.description} />
+          <Collapse className="lodgingCollapse" title="Description" content={lodgingdata.description}/>
         </div>
         <div className="lodgingCollapseCards">
-          <Collapse className="lodgingCollapse" title="Equipements" content={lodgingdata?.equipments} />
-        </div>
+          <Collapse className="lodgingCollapse" title="Equipements" content={
+    <ul>
+      {lodgingdata.equipments.map((equipment, index) => (
+        <li key={index}>{equipment}</li>
+      ))}
+    </ul>
+  }
+      />
+      </div>
       </section>
       <Footer />
     </div>

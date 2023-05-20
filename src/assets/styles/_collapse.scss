@@ -3,6 +3,10 @@
     margin: auto;
 } 
 
+.collapsesContent {
+    margin: 0 1rem; /* Ajoute une marge de 1rem à gauche et à droite */
+  }
+
 .collapsesBloc h1{
     position:relative; 
     background-color: var(--primary);
@@ -28,18 +32,19 @@
     transition: transform 0.9s;
   }
 
-.collapsesText{
-    width: 96.5%; 
-    height: 8rem;
-    font-size: 1.3rem;
+  .collapsesText {
+    width: 96.5%;
+    height: auto; 
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--primary);
-    text-align: start; 
-    padding-right: -2rem;
-    margin: 0 auto 1.5rem auto; 
-    background: #F6F6F6 ; 
+    text-align: start;
+    padding: 0.85rem 0.7rem; 
+    margin: 0 auto 1.5rem auto;
+    background: #F6F6F6;
     border-radius: 6px;
-} 
+  }
+  
 
 .lodgingCollapses{
     display: flex; 

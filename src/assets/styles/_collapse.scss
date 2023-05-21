@@ -7,16 +7,12 @@
     margin: 0 1rem; 
 }
 
-.collapsesBloc{
-  width: 65;
-}
-
 .collapsesBloc h1, .lodgingCollapses h1{
     position:relative; 
     background-color: var(--primary);
     font-size: 1.5rem; 
     margin: 1.5rem 1rem 0 1rem;
-    padding: 0.7rem;
+    padding: 0.3rem 0.9rem;
     border-radius: 6px;
     color: white;
     cursor: pointer;
@@ -24,7 +20,7 @@
 .collapsesBloc img, .lodgingCollapses img{
     position: absolute; 
     right: 10px; 
-    bottom: 18px;
+    bottom: 14px;
 }
 
 .arrowRotate{
@@ -60,4 +56,24 @@
   width: 50%;
 }
 
+/* Media queries pour la version mobile */
+@media (max-width: 767px) {
+  .aboutCollapseCards{
+    width: 100%; 
+} 
 
+.collapsesBloc h1, .lodgingCollapses h1{
+  font-size:0.9rem;
+} 
+
+.collapsesBloc img, .lodgingCollapses img{
+  width: 1rem; 
+  height: 1rem;
+  right: 5px; 
+  bottom: 7px;
+}
+
+.collapsesText {
+  font-size: 0.9rem;
+}
+}

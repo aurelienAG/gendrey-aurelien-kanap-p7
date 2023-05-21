@@ -1,6 +1,5 @@
 footer {
-   
-    margin: 7rem auto 0 auto;
+    margin: 7rem auto auto auto;
     padding: 4.2rem ;
     color: white;
     display: flex;
@@ -16,5 +15,17 @@ footer {
     width: 125px;
     margin-left: auto;
     margin-right: auto;
- 
+ }
+
+ footer p{
+   margin-top: 1.9rem;
+}
+
+ /* Media queries pour la version mobile */
+ @media (max-width: 768px) {
+   footer {
+      margin: 0.6rem auto auto auto;
+      font-size: 0.7rem;
+      text-align:center;
+   } 
  }

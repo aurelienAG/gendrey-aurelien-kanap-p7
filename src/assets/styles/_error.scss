@@ -3,9 +3,9 @@
 }
 
 .errorText{
-    // width: 50%; 
-    // margin: auto;
     text-align: center;
+    padding-left: 0.6rem; 
+    padding-right: 0.6rem;
 }
 
 .errorText h1 {
@@ -13,7 +13,24 @@
     font-weight: bolder;
     font-stretch: ultra-condensed;
 } 
-
+.errorText .homeLink {
+ color: var(--primary); 
+  }
 .errorText p{
     margin-top: 12rem;
+}
+
+/* Media queries pour la version mobile */
+@media (max-width: 767px) {
+    .errorText h1 {
+        font-size: 5rem;
+        margin-top: 7.5rem;
+    } 
+  .errorText h2 {
+    font-size: 1.3rem; 
+  }
+
+  .errorText p{
+    margin-top: 9rem;
+}
 }

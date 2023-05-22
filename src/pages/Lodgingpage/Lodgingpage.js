@@ -35,14 +35,21 @@ function Lodgingpage() {
           <Carrousel images={carouselDatas} />
           <section className="lodgingSelected">
             <div className="lodgingBloc">
-              <div>
                 <div className="firstBloc">
-                  <div>
                     <h1>{lodgingdata.title}</h1>
-                  </div>
+                  <p>{lodgingdata.location}</p> 
+                <div className="tags">
+                  {lodgingdata.tags.map(tag => (
+                    <span className="tag" key={tag}>{tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <div className="hostDatasBloc">
                   <div className='hostDatas'>
-                    <p>{lodgingdata.host.name}</p>
+                    <p className="hostDatas--name">{lodgingdata.host.name}</p>
                     <img src={lodgingdata.host.picture} alt="hôte de l'appartement" />
+                    </div>  
                     <span className='rating'>
                       {[...Array(parseInt(lodgingdata.rating))].map((_, index) => (
                         <img key={index} src={Star} alt="note" />
@@ -51,17 +58,8 @@ function Lodgingpage() {
                         <img key={index} src={EmptyStar} alt="étoiles vides" />
                       ))}
                     </span>
-                  </div>
+                    
                 </div>
-                <aside>
-                  <p>{lodgingdata.location}</p>
-                </aside>
-                <div className="tags">
-                  {lodgingdata.tags.map(tag => (
-                    <span className="tag" key={tag}>{tag}</span>
-                  ))}
-                </div>
-              </div>
             </div>
           </section>
           <section className="lodgingCollapses">

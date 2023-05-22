@@ -1,12 +1,13 @@
  .carrouselPicture{
   position: relative;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto; 
   margin-bottom:1.5rem;
-  height:23rem;
+  height:27rem;
   width: 90%;
-  min-width: 500px; 
-  min-height: 250px;
+ width: 500px; 
+height: 250px;
  }
 
   .carrouselPicture img{
@@ -23,8 +24,8 @@
     bottom: 55%;
     cursor: pointer;
     z-index: 1;
-    width: 3rem; 
-    height: 3rem;
+    width: 1.8rem; 
+    height: 3.3rem;
    fill:white;
   }
   
@@ -44,6 +45,31 @@
   color: white;
 }
 
+/* Media queries pour la version tablette */
+@media (max-width: 1024px) {
+  .carrouselPicture{
+    height:15rem;
+    width: 100%;
+    margin-bottom: 2rem;
+   }
+}
 
+/* Media queries pour la version mobile */
+@media (max-width: 767px) {
+  .carrouselPicture{
+    height:15rem;
+    width: 92%;
+    margin: auto;
+   }
+   .carrouselPicture img{
+    border-radius: 8px;
+}
+.left-chevron ,
+.right-chevron {
+  width: 0.9rem; 
+  height: 1.6rem;
+
+}
+}
 
   

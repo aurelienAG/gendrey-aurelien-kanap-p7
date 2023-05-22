@@ -48,13 +48,14 @@
 
 .lodgingCollapses{
  display: flex; 
- width: 90%; 
+ width: 93%; 
  margin: auto;
 } 
 
 .lodgingCollapseCard{
   width: 50%;
 }
+
 
 /* Media queries pour la version mobile */
 @media (max-width: 767px) {
@@ -75,5 +76,17 @@
 
 .collapsesText {
   font-size: 0.9rem;
+}
+
+.lodgingCollapses{
+  display: flex; 
+  flex-direction: column;
+  width: 100%; 
+  margin-top: -1rem;
+  margin-bottom: 3.2rem;
+ } 
+
+ .lodgingCollapseCard{
+  width: 100%;
 }
 }

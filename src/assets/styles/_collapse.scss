@@ -53,9 +53,20 @@
 } 
 
 .lodgingCollapseCard{
-  width: 50%;
+  width: 50%; 
+  padding: 0.85rem 0.7rem; 
 }
+.equipments{
+  display: flex; 
+  flex-direction:column; 
+height: auto; 
+margin: -0.5rem 2rem -0.5rem -2rem;
+} 
 
+.equipment{
+  width: 90%; 
+  
+}
 
 /* Media queries pour la version mobile */
 @media (max-width: 767px) {
@@ -87,6 +98,12 @@
  } 
 
  .lodgingCollapseCard{
-  width: 100%;
+  width: 90%;
+  margin-bottom: -2rem;
 }
+
+.equipments{
+  flex-wrap: wrap;
+}
+
 }

@@ -6,8 +6,7 @@
   margin-bottom:1.5rem;
   height:27rem;
   width: 90%;
- width: 500px; 
-height: 250px;
+// height: 250px;
  }
 
   .carrouselPicture img{
@@ -49,7 +48,7 @@ height: 250px;
 @media (max-width: 1024px) {
   .carrouselPicture{
     height:15rem;
-    width: 100%;
+    width: 90%;
     margin-bottom: 2rem;
    }
 }

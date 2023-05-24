@@ -68,9 +68,9 @@ function Lodgingpage() {
             </div>
             <div className="lodgingCollapseCard">
               <Collapse title="Equipements" content={
-                <ul>
+                <ul className="equipments">
                   {lodgingdata.equipments.map((equipment, index) => (
-                    <li key={index}>{equipment}</li>
+                    <li key={index}className="equipment">{equipment}</li>
                   ))}
                 </ul>
               } />

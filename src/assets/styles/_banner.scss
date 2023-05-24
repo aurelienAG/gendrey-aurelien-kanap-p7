@@ -3,7 +3,7 @@
   padding: 0 3.9rem 0 3.9rem;
   margin: 0 4.2rem 3rem 4.2rem;
   position: relative;
-  object-fit: content;
+  object-fit: contain;
   z-index: 0;
   border-radius: 25px;
   background-image: url('../images/herobanner.png');
@@ -61,13 +61,14 @@
   .banner h1 {
     font-size: 1.3rem;
     white-space: normal; 
-    top: 70%; 
+    width: 190px;
+    top: 60%; 
     left: 40%;
     transform: translate(-50%, -70%); 
   }
 
   .banner2 img{
     height: 15rem;
-    border-radius: 12px ; 
+    border-radius: 10px; 
   }
 }

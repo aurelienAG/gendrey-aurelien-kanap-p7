@@ -67,8 +67,14 @@
     transform: translate(-50%, -70%); 
   }
 
-  .banner2 img{
+  .banner2 {
     height: 15rem;
+  }
+
+  .banner2 img{
+    object-fit: cover;
+    height: 100%;
     border-radius: 10px; 
+    mix-blend-mode: darken;
   }
 }

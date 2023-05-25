@@ -79,13 +79,16 @@
 
   .lodgingSelected p{
     font-size: 0.8rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
   }
-
+.tags{
+    margin-bottom: -1em;
+}
   .tag{
     color: white; 
     background-color: var(--primary);
     padding: 0.25rem 0.95rem 0.75rem 0.95rem;
+    margin-top: 0.7em;
     font-size: 0.55rem; 
     width: 6rem;
     height: 0.1rem; 
@@ -95,6 +98,7 @@
   .lodgingBloc{
     display: flex;
     flex-direction: column; 
+    margin-bottom: -1.5em;
 }
 
 .hostDatasBloc{
@@ -105,26 +109,28 @@
 
 .hostDatas {
     font-size: 0.9rem;
-    margin-top: 0.7rem; 
-    margin-left: 7.5rem;
+    margin: 0.5rem -2.6em 0 10.5rem; 
   }
   
   .hostDatas--name{
     font-weight: 500;
-    width:93px;
+    margin-right:-0.7em;
+    width:60px;
   }
   
   .hostDatas img {
     height: 32px;
     width: 32px;
-    margin-right: -20px;
   }
 
+.rating{
+    margin-right: 0.5rem;
+}  
 .rating img {
-    width: 0.7rem; 
-    height: 0.7rem;
+    width: 0.65rem; 
+    height: 0.65rem;
     margin-top: 2rem;
-    margin-left: 3px;
+    margin-left: 1px;
 }
 
 }

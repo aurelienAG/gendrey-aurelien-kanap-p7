@@ -3,16 +3,17 @@
     margin: auto;
 } 
 
-.collapsesContent {
-    margin: 0 1rem; 
+.collapse{
+  width: 90%;
+  margin:auto;
 }
-
 .collapsesBloc h1, .lodgingCollapses h1{
     position:relative; 
     background-color: var(--primary);
+    width: 100%;
     font-size: 1.5rem; 
-    margin: 1.5rem 1rem 0 1rem;
-    padding: 0.3rem 0.9rem;
+    margin: 1.5rem 0 0 0;
+    padding: 0.3rem 0.7rem;
     border-radius: 6px;
     color: white;
     cursor: pointer;
@@ -33,7 +34,7 @@
   }
 
   .collapsesText {
-    width: 96.5%;
+    width:100%;
     height: auto; 
     font-size: 1.5rem;
     font-weight: bold;
@@ -48,8 +49,9 @@
 
 .lodgingCollapses{
  display: flex; 
- width: 93%; 
- margin: auto;
+ width: 94%; 
+ margin-left: auto; 
+ margin-right:auto;
 } 
 
 .lodgingCollapseCard{
@@ -65,7 +67,7 @@ margin: -0.5rem 2rem -0.5rem -2rem;
 
 .equipment{
   width: 90%; 
-  
+  margin-left: -1rem;
 }
 
 /* Media queries pour la version mobile */
@@ -73,7 +75,10 @@ margin: -0.5rem 2rem -0.5rem -2rem;
   .aboutCollapseCards{
     width: 100%; 
 } 
-
+.collapse{
+  width: 100%;
+  margin:auto;
+}
 .collapsesBloc h1, .lodgingCollapses h1{
   font-size:0.9rem;
 } 
@@ -90,16 +95,15 @@ margin: -0.5rem 2rem -0.5rem -2rem;
 }
 
 .lodgingCollapses{
-  display: flex; 
   flex-direction: column;
-  width: 100%; 
-  margin-top: -1rem;
-  margin-bottom: 3.2rem;
+  width: 95%; 
+  margin: -1rem 0 2rem 0;
  } 
 
  .lodgingCollapseCard{
-  width: 90%;
-  margin-bottom: -2rem;
+  width: auto;
+  margin:0 0 -2rem 0;
+  
 }
 
 .equipments{

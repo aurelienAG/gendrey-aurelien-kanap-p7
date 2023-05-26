@@ -9,7 +9,7 @@ function Collapse({ title, content }) {
   };
 
   return (
-    <div className='collapse'>
+    <div key="standardCollapse"className='collapse'>
       <h1 onClick={toggleCollapse}>
         {title}
         <img
@@ -20,7 +20,7 @@ function Collapse({ title, content }) {
       </h1>
       {isCollapsed ? null : (
         <div className="collapsesContent">
-          <p className="collapsesText">{content}</p>
+          <div className="collapsesText">{content}</div>
         </div>
       )}
     </div>

@@ -5,7 +5,7 @@ function LodgingsCards() {
   return (      
         lodgingsdatas.map(lodging => (
           <figure className="lodgingscards" key={lodging.id}>
-            <Link to={`/lodging/${lodging.id}`} class="lodgingsLink">
+            <Link to={`/lodging/${lodging.id}`} className="lodgingsLink">
             <img src={lodging.cover} alt={lodging.title} />
             <h2>{lodging.title}</h2>
             </Link>

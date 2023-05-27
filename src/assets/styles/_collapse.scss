@@ -4,7 +4,7 @@
 } 
 
 .collapse{
-  width: 90%;
+  width: 97%;
   margin:auto;
 }
 .collapsesBloc h1, .lodgingCollapses h1{
@@ -49,14 +49,14 @@
 
 .lodgingCollapses{
  display: flex; 
- width: 94%; 
+ width: 92%; 
  margin-left: auto; 
  margin-right:auto;
 } 
 
 .lodgingCollapseCard{
   width: 50%; 
-  padding: 0.85rem 0.7rem; 
+  padding: 0.85rem 1.3rem 0.85rem 0rem; 
 }
 .equipments{
   display: flex; 
@@ -70,15 +70,31 @@ margin: -0.5rem 2rem -0.5rem -2rem;
   margin-left: -1rem;
 }
 
+/* Media queries pour la version tablette */
+@media (max-width: 1024px) {
+
+  .aboutCollapseCards{
+    width: 91%; 
+    margin-left:3%;
+} 
+
+  .lodgingCollapseCard h1, .lodgingCollapseCard ul{
+    font-size:1.2rem;
+  } 
+  .collapsesBloc img, .lodgingCollapses img{
+    position: absolute; 
+    right: 10px; 
+    bottom: 10px;
+}
+}
+
 /* Media queries pour la version mobile */
 @media (max-width: 767px) {
   .aboutCollapseCards{
-    width: 100%; 
+    width: 89.5%; 
+    margin-left:2.5%;
 } 
-.collapse{
-  width: 100%;
-  margin:auto;
-}
+
 .collapsesBloc h1, .lodgingCollapses h1{
   font-size:0.9rem;
 } 
@@ -102,7 +118,7 @@ margin: -0.5rem 2rem -0.5rem -2rem;
 
  .lodgingCollapseCard{
   width: auto;
-  margin:0 0 -2rem 0;
+  margin:0 0 -2rem 1rem;
   
 }
 

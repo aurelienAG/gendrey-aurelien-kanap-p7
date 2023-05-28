@@ -26,7 +26,7 @@ function Lodgingpage() {
     return <Error />;
   }
 
-  const carouselDatas = lodgingdata.pictures || [];
+  const carouselDatas = lodgingdata.pictures;
 
   return (
     <div>

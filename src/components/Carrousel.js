@@ -6,19 +6,14 @@ import rightChevron from "../assets/images/Vector-right.svg";
 
 function Carrousel({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isTransitionHidden, setIsTransitionHidden] = useState(false);
-
+  
   const handleChange = (index) => {
     setCurrentIndex(index);
   };
 
   const handlePrev = () => {
     if (currentIndex === 0) {
-      setIsTransitionHidden(true); // Masquer la transition
       setCurrentIndex(images.length - 1);
-      setTimeout(() => {
-        setIsTransitionHidden(false); // Rétablir la transition après un court délai
-      }, 0);
     } else {
       setCurrentIndex(currentIndex - 1);
     }
@@ -40,7 +35,6 @@ function Carrousel({ images }) {
       showThumbs={false}
       selectedItem={currentIndex}
       onChange={handleChange}
-      className={isTransitionHidden ? 'carousel-hidden-transition' : ''}
     >
       {images.map((image, index) => (
         <div className='carrouselPicture' key={index}>

@@ -15,7 +15,7 @@ function Collapse({ title, content }) {
         <img
           src={arrow}
           alt="flêche"
-          className={`arrow ${!isCollapsed ? 'arrowRotate' : 'reverse'}`}
+          className={`${!isCollapsed ? 'arrowRotate' : 'reverse'}`}
         />
       </h1>
       {isCollapsed ? null : (

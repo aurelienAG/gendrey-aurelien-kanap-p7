@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/aurelienAG/gendrey-aurelien-kanap-p7.git/static/css/main.55635a2d.css",
+    "main.js": "/aurelienAG/gendrey-aurelien-kanap-p7.git/static/js/main.8b9c9cd1.js",
+    "static/media/aboutbanner.png": "/aurelienAG/gendrey-aurelien-kanap-p7.git/static/media/aboutbanner.7825346c60bcdfe3093c.png",
+    "static/media/herobanner.png": "/aurelienAG/gendrey-aurelien-kanap-p7.git/static/media/herobanner.de82d79ade63b3547542.png",
+    "index.html": "/aurelienAG/gendrey-aurelien-kanap-p7.git/index.html",
+    "static/media/arrow.svg": "/aurelienAG/gendrey-aurelien-kanap-p7.git/static/media/arrow.b052dd29e3a2bab76700eee79e133c37.svg",
+    "static/media/Vector-right.svg": "/aurelienAG/gendrey-aurelien-kanap-p7.git/static/media/Vector-right.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/Vector-left.svg": "/aurelienAG/gendrey-aurelien-kanap-p7.git/static/media/Vector-left.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "static/media/emptyStar.svg": "/aurelienAG/gendrey-aurelien-kanap-p7.git/static/media/emptyStar.7e4ba6032d7d80ecc30aa389973cef95.svg",
+    "static/media/star.svg": "/aurelienAG/gendrey-aurelien-kanap-p7.git/static/media/star.6430150c126a3adf92c132c52c9c7428.svg",
+    "main.55635a2d.css.map": "/aurelienAG/gendrey-aurelien-kanap-p7.git/static/css/main.55635a2d.css.map",
+    "main.8b9c9cd1.js.map": "/aurelienAG/gendrey-aurelien-kanap-p7.git/static/js/main.8b9c9cd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55635a2d.css",
+    "static/js/main.8b9c9cd1.js"
+  ]
+}

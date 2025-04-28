@@ -52,7 +52,7 @@ function Lodgingpage() {
                     </div>  
                     <span className='rating'>
                       {[...Array(parseInt(lodgingdata.rating))].map((_, index) => (
-                        <img key={index} src={Star} alt="note" />
+                        <img key={index} src={Star} alt={parseInt(lodgingdata.rating)}/>
                       ))}
                       {[...Array(5 - parseInt(lodgingdata.rating))].map((_, index) => (
                         <img key={index} src={EmptyStar} alt="étoiles vides" />

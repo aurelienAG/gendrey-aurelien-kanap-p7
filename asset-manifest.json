@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gendrey-aurelien-kanap-p7/static/css/main.48e839de.css",
-    "main.js": "/gendrey-aurelien-kanap-p7/static/js/main.3150d98b.js",
+    "main.js": "/gendrey-aurelien-kanap-p7/static/js/main.9e1927c4.js",
     "static/media/aboutbanner.png": "/gendrey-aurelien-kanap-p7/static/media/aboutbanner.7825346c60bcdfe3093c.png",
     "static/media/herobanner.png": "/gendrey-aurelien-kanap-p7/static/media/herobanner.de82d79ade63b3547542.png",
     "index.html": "/gendrey-aurelien-kanap-p7/index.html",
@@ -11,10 +11,10 @@
     "static/media/emptyStar.svg": "/gendrey-aurelien-kanap-p7/static/media/emptyStar.7e4ba6032d7d80ecc30aa389973cef95.svg",
     "static/media/star.svg": "/gendrey-aurelien-kanap-p7/static/media/star.6430150c126a3adf92c132c52c9c7428.svg",
     "main.48e839de.css.map": "/gendrey-aurelien-kanap-p7/static/css/main.48e839de.css.map",
-    "main.3150d98b.js.map": "/gendrey-aurelien-kanap-p7/static/js/main.3150d98b.js.map"
+    "main.9e1927c4.js.map": "/gendrey-aurelien-kanap-p7/static/js/main.9e1927c4.js.map"
   },
   "entrypoints": [
     "static/css/main.48e839de.css",
-    "static/js/main.3150d98b.js"
+    "static/js/main.9e1927c4.js"
   ]
 }

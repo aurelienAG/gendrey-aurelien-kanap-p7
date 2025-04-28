@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/aurelienAG/gendrey-aurelien-kanap-p7/static/css/main.551a1484.css",
-    "main.js": "/aurelienAG/gendrey-aurelien-kanap-p7/static/js/main.d0156501.js",
-    "static/media/aboutbanner.png": "/aurelienAG/gendrey-aurelien-kanap-p7/static/media/aboutbanner.7825346c60bcdfe3093c.png",
-    "static/media/herobanner.png": "/aurelienAG/gendrey-aurelien-kanap-p7/static/media/herobanner.de82d79ade63b3547542.png",
-    "index.html": "/aurelienAG/gendrey-aurelien-kanap-p7/index.html",
-    "static/media/arrow.svg": "/aurelienAG/gendrey-aurelien-kanap-p7/static/media/arrow.b052dd29e3a2bab76700eee79e133c37.svg",
-    "static/media/Vector-right.svg": "/aurelienAG/gendrey-aurelien-kanap-p7/static/media/Vector-right.88153a5d119c2744ffe34dca1ef843df.svg",
-    "static/media/Vector-left.svg": "/aurelienAG/gendrey-aurelien-kanap-p7/static/media/Vector-left.19918a1634b1441a25ae0b50e6b1f85b.svg",
-    "static/media/emptyStar.svg": "/aurelienAG/gendrey-aurelien-kanap-p7/static/media/emptyStar.7e4ba6032d7d80ecc30aa389973cef95.svg",
-    "static/media/star.svg": "/aurelienAG/gendrey-aurelien-kanap-p7/static/media/star.6430150c126a3adf92c132c52c9c7428.svg",
-    "main.551a1484.css.map": "/aurelienAG/gendrey-aurelien-kanap-p7/static/css/main.551a1484.css.map",
-    "main.d0156501.js.map": "/aurelienAG/gendrey-aurelien-kanap-p7/static/js/main.d0156501.js.map"
+    "main.css": "/gendrey-aurelien-kanap-p7/static/css/main.48e839de.css",
+    "main.js": "/gendrey-aurelien-kanap-p7/static/js/main.3150d98b.js",
+    "static/media/aboutbanner.png": "/gendrey-aurelien-kanap-p7/static/media/aboutbanner.7825346c60bcdfe3093c.png",
+    "static/media/herobanner.png": "/gendrey-aurelien-kanap-p7/static/media/herobanner.de82d79ade63b3547542.png",
+    "index.html": "/gendrey-aurelien-kanap-p7/index.html",
+    "static/media/arrow.svg": "/gendrey-aurelien-kanap-p7/static/media/arrow.b052dd29e3a2bab76700eee79e133c37.svg",
+    "static/media/Vector-right.svg": "/gendrey-aurelien-kanap-p7/static/media/Vector-right.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/Vector-left.svg": "/gendrey-aurelien-kanap-p7/static/media/Vector-left.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "static/media/emptyStar.svg": "/gendrey-aurelien-kanap-p7/static/media/emptyStar.7e4ba6032d7d80ecc30aa389973cef95.svg",
+    "static/media/star.svg": "/gendrey-aurelien-kanap-p7/static/media/star.6430150c126a3adf92c132c52c9c7428.svg",
+    "main.48e839de.css.map": "/gendrey-aurelien-kanap-p7/static/css/main.48e839de.css.map",
+    "main.3150d98b.js.map": "/gendrey-aurelien-kanap-p7/static/js/main.3150d98b.js.map"
   },
   "entrypoints": [
-    "static/css/main.551a1484.css",
-    "static/js/main.d0156501.js"
+    "static/css/main.48e839de.css",
+    "static/js/main.3150d98b.js"
   ]
 }

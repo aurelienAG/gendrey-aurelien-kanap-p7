@@ -25,7 +25,7 @@
     "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/aurelienAG/gendrey-aurelien-kanap-p7"
+  "homepage": "https://aurelienAG.github.io/gendrey-aurelien-kanap-p7"
   ,
   "eslintConfig": {
     "extends": [
